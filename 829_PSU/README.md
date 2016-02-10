@@ -16,7 +16,7 @@ vehicles. This makes perfect sense for the original intended use.
 
 ![Molex DC power port - Front Panel IR829](images/molex_dc_in_front_panel.png)
 
-Note that "GND" is ground, i.e power out -ve, and that "BAT" is battery, which
+Note that "GND" is ground, i.e. power out -ve, and that "BAT" is battery, which
 is the power in +ve. IGN is the ignition connector. This is explained,
 sort of,
 [here](http://www.cisco.com/c/en/us/td/docs/routers/access/800/829/hardware/install/guide/829hwinst/pview.html#pgfId-1077228),
@@ -60,7 +60,7 @@ plug, which also came in the IR829 box.
 That looks like this (note
 that the white cable that looks like it is going into the top of the Molex
 slipped when I took the photo. It actually goes into the hole on the
-right of the bare metal cable):
+right of the bare metal ground cable):
 
 ![The Hack](images/the_hack.png)
 
@@ -73,6 +73,6 @@ And the lights come on like this:
 ![Lights](images/lights.png)
 
 Once you are happy that it is all connected properly, tape it up like
-this:
+this (or perhaps even tidier):
 
 ![Taped](images/taped.png)
