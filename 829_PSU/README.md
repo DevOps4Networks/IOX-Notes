@@ -1,6 +1,6 @@
 #How to Provide Power to Your IR829
 
-When I received my IR829 I opened the box with the expectation of
+When I received my [IR829](http://www.cisco.com/c/en/us/td/docs/routers/access/800/829/hardware/install/guide/829hwinst/pview.html) I opened the box with the expectation of
 taking it out, plugging it and starting to work with it. BUT, it was
 not shipped with a Power Supply Unit (PSU) or adaptor, so I was somewhat
 disappointed instead.
@@ -27,13 +27,6 @@ sources are not that common.
 
 ##The Alternatives
 
-In the box with the IR829 I did find a four hole Molex plug and a strip of four
-metal pieces designed to clamp around cables and insert into the Molex
-plug. These are intended to be used to connect power cables in a
-vehicle environment to plug into the IR829. With a little work, they
-can be adapted for use with a AC/DC PSU also. There are images of
-those two parts in use below.
-
 Cisco has two part numbers for suitable PSUs: PWR-60W-AC=, and
 PWR-125W-AC=. The former supplies 60W, which is sufficient for the
 IR829, and the latter supplies 125W, which is sufficient for Power
@@ -53,7 +46,13 @@ to a wall socket. This is what you will need:
 
 ##Some Hacking Required
 
-This is where the Molex plug and the metal pieces come in.  What I did
+In the box with the IR829 I did find a four hole Molex plug and a strip of four
+metal pieces designed to clamp around cables and insert into the Molex
+plug. These are intended to be used to connect power cables in a
+vehicle environment to plug into the IR829. With a little work, they
+can be adapted for use with a AC/DC PSU also.
+
+What I did
 was cut off the plug that the PSU came with, and used the metal pieces
 in the IR829 box to connect the inner and outer cables into the Molex
 plug, which also came in the IR829 box.
