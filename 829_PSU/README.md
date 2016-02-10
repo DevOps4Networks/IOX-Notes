@@ -63,3 +63,16 @@ slipped when I took the photo. It actually goes into the hole on the
 right of the bare metal cable):
 
 ![The Hack](images/the_hack.png)
+
+That, when fully pushed together, can be plugged in like this:
+
+![Plugged](images/plugged.png)
+
+And the lights come on like this:
+
+![Lights](images/lights.png)
+
+Once you are happy that it is all connected properly, tape it up like
+this:
+
+![Taped](images/taped.png)
