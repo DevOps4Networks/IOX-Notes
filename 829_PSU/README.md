@@ -14,7 +14,7 @@ vehicles. To make that simple, it comes with an on-board power adapter
 suitable for the 12v-24v DC power supply that is standard in
 vehicles. This makes perfect sense for the original intended use.
 
-![Molex DC power port - Front Panel IR829][images/molex_dc_in_front_panel.png]
+![Molex DC power port - Front Panel IR829](images/molex_dc_in_front_panel.png)
 
 
 Outside of the vehicle environment, though, 12v-24v, 5A, 60-120W power
