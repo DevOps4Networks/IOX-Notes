@@ -7,6 +7,8 @@ disappointed instead.
 
 If that happens to you, then what I have written here may help you.
 
+By the time my [IR809](http://www.cisco.com/c/en/us/products/collateral/routers/809-industrial-router/datasheet-c78-734980.html) arrived, I was mentally prepared.
+
 ##What the IR829 is Supposed to do for Power
 
 The IR829, as originally conceived, was designed to go into
