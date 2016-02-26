@@ -1,4 +1,4 @@
-#How to Provide Power to Your IR829
+#How to Provide Power to Your IR829 and IR809
 
 When I received my [IR829](http://www.cisco.com/c/en/us/td/docs/routers/access/800/829/hardware/install/guide/829hwinst/pview.html) I opened the box with the expectation of
 taking it out, plugging it and starting to work with it. BUT, it was
@@ -27,7 +27,7 @@ sources are not that common.
 
 ##The Alternatives
 
-Cisco has two part numbers for suitable PSUs: PWR-60W-AC=, and
+Cisco has twodent part numbers for suitable PSUs: PWR-60W-AC, PWR-60W-AC-V2, and
 PWR-125W-AC=. The former supplies 60W, which is sufficient for the
 IR829, and the latter supplies 125W, which is sufficient for Power
 over Ethernet (PoE) also.
@@ -38,13 +38,27 @@ This is what the PWR-60W-AC= looks like:
 
 Note that the plug at the end is *not* a Molex. We will get to that momentarily.
 
+The PWR-60W-AC-V2 looks much the same as the  PWR-60W-AC, but it comes
+with a Molex plug fitted already. That plu, though, does not click
+into the power port on the IR829, so some plastic trimming is
+required, which is illustrated below.
+
 They both connect to 100-240V outlets common in North
 America or EMEA. Note that the PSU ships *without* a cable to connect
 to a wall socket. This is what you will need:
 
 ![Wall Power Cable](images/wall_power_cable.png)
 
-##Some Hacking Required
+##Some Hacking Required to Use the Pre-Fitted Molex on the PWR-60W-AC-V2
+
+Sometimes hacking really is, in the physical sense, hacking. The
+picture below illustrates what I did to get the pre-fitted Molex plug
+on the PWR-60W-AC-V2 to click into the IR829. Shown is the tool, a plug
+with some plastic cut off, and a plug without the plastic cut off.
+
+![Adjusted Molex Plug](images/adjusted_molex_plug.jpeg)
+
+#DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR829
 
 In the box with the IR829 I did find a four hole Molex plug and a strip of four
 metal pieces designed to clamp around cables and insert into the Molex
@@ -76,3 +90,19 @@ Once you are happy that it is all connected properly, tape it up like
 this (or perhaps even tidier):
 
 ![Taped](images/taped.png)
+
+#DIY Required to Fit the Provided Molex to the PWR-60W-AC for the IR809
+
+The details for the IR809 are similar, in the sense that one has to
+strip off the plug and use the supplied, black four hole, plug to
+connect the PSU to the IR829. Note that the screws to hold the wires
+in place are very small, I needed to use my specialist electronics
+screwdriver set for those screws. Note, also, that the plug itself is
+screwed into the body of the IR829 to hold it in place.
+
+The wiring directions are
+[here](http://www.cisco.com/c/en/us/td/docs/routers/access/800/809/hardware/install/guide/809hwinst/pview.html#pgfId-1154042).
+
+This is what it looks like:
+
+![IR809 Power](images/IR809_power.jpeg)
