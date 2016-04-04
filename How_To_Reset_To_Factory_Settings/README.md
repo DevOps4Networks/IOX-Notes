@@ -15,14 +15,14 @@ The `clear start` command will delete the startup configuration of the device. I
 On the IR809 using the CLI looks like this:
 
 ```bash
- >en
- Password: 
- \#clear start
- Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
- [OK]
- Erase of nvram: complete
- IR809-DevTest1#reload
- Proceed with reload? [confirm]
+>en
+Password: 
+#clear start
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+IR809-DevTest1#reload
+Proceed with reload? [confirm]
 ```
 
 On the IR829, the using the CLI looks like this:
