@@ -2,8 +2,7 @@
 
 ![Laptop and IR829](./images/main.png)
 
-
-As a developer, what you want to do is get your software onto the IOx Yocto Linux Guest Operating System (GOS) on the IR829/809 and see what happens. This guide gets you there, requiring the contents of what is shipped in the IR829/809 box, a small Philips screwdriver to unscrew the panel over the mini-USB port, and a suitable power supply.
+The diagram above illustrates a basic setup to get your laptop connected to a IR829/809 and in a position to start with developing applications, deploying them into the IOx Yocto Linux Guest Operating System (GOS) on the IR829/809, and seeing what happens. This guide requires the contents of what is shipped in the IR829/809 box, a small Philips screwdriver to unscrew the panel over the mini-USB port, and a suitable [power supply](https://github.com/DevOps4Networks/IOX-Notes/blob/master/8x9_PSU/README.md).
  
 A typographical note for below: I use IR8x9 to mean both the IR829 and IR809 for the purposes of this post. Note that this does NOT include the IR819, which is quite different.
  
