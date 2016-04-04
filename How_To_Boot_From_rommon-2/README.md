@@ -1,6 +1,6 @@
 #How to Boot to IOS from rommon-2, and Not Have to do That Again
 
-If, via the console, you see that your device is booting to the "rommon-2" prompt, and so not to IOS directly, you can use these instructions to fix that. This may happen after you have reset the device, for example. For instructions on how to reset, see Re: How to reset the IR829 to factory settings.
+If, via the console, you see that your device is booting to the "rommon-2" prompt, and so not to IOS directly, you can use these instructions to fix that. This may happen after you have reset the device, for example. For instructions on how to reset, see these [instructions](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Boot_From_rommon-2/README.md).
  
 If you do not have a console connection working, see How to use the IR829 Mini-USB Console Cable with OSX El Capitan 10.11, How to use the IR829 Mini-USB Console Cable with Windows 10, How to use the IR829 Mini-USB Console Cable with Linux or How to use a Serial-USB Console Cable with the IR829/809 and OSX El Capitan 10.11, depending on your choice of development environments.
  
