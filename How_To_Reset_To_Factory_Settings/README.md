@@ -11,7 +11,41 @@ If you use the CLI commands, or effect a reset with the reset button, your devic
 ##Using CLI
 
 The `clear start` command will delete the startup configuration of the device. If you then `reload` after having done that, and do NOT, save the configuration, then the device will be reset to factory settings as though you had used the reset button.
+
+On the IR809 using the CLI looks like this:
+
+```bash
+>en
+Password: 
+#clear start
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+IR809-DevTest1#reload
+Proceed with reload? [confirm]
+```
+
+On the IR829, the using the CLI looks like this:
+```bash
+>en
+Password: 
+#clear start
+Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+[OK]
+Erase of nvram: complete
+IR829-DevTest3#
+*Apr  4 16:58:52.269: %SYS-7-NV_BLOCK_INIT: Initialized the geometry of nvramreload
  
+Do you want to reload the internal AP ? [yes/no]: yes
+ 
+Do you want to save the configuration of the AP? [yes/no]: no
+Proceed with reload? [confirm]
+ 
+*Apr  4 16:59:02.559: %SYS-5-RELOAD: Reload requested by console. Reload Reason: Reload Command.
+``` 
+ 
+After about five minutes, the device will reboot to the rommon-2 prompt and you can follow these [instructions](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Boot_From_rommon-2/README.md) to boot to IOS again.
+
 ##Using the Reset Button with 15.5(3)M2 or later (including 15.6 releases)
  
 If the IOS version is 15.5(3)M2 or later (including 15.6 releases), use the method as described in the documentation explained below.
