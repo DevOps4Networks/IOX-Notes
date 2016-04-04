@@ -15,7 +15,7 @@ To get started here, you need to have the following working for you:
 •	A connection to the GOS Local Manager web UI, using your laptop.
 •	Trivial File Transfer Protocol (TFTP), or similar, so that you can install new IOx bundles and/or IOS images and/or GOS images as they are made available, using your laptop.
  
-The console connectivity aspects are dealt with in these posts: How to use the IR829 Mini-USB Console Cable with OSX El Capitan 10.11, How to use the IR829 Mini-USB Console Cable with Windows 10, How to use the IR829 Mini-USB Console Cable with Linux or How to use a Serial-USB Console Cable with the IR829 and OSX El Capitan 10.11, depending on your choice of development environments.
+The console connectivity aspects are dealt with [here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_The_Console/README.md).
  
 Booting the IR8x9 to IOS is dealt with in this post: How to Boot to IOS from rommon-2, and Not Have to do That Again.
  
