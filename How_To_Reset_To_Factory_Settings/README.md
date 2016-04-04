@@ -1,4 +1,4 @@
-#How to reset the IR829 to factory settings
+#How to Reset the IR829 or IR809 to Factory Settings
 
 There are two ways to manually reset an IR829 or an IR809 to factory settings, depending on the version of IOS installed. The reset button for the IR829 is under the screwed down plate that covers the mini-USB console port. The reset button for the IR809 is next to the power socket and mini-USB port. You will need a paperclip or similar to press the reset button.
 
@@ -15,14 +15,14 @@ The `clear start` command will delete the startup configuration of the device. I
 On the IR809 using the CLI looks like this:
 
 ```bash
->en
-Password: 
-#clear start
-Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
-[OK]
-Erase of nvram: complete
-IR809-DevTest1#reload
-Proceed with reload? [confirm]
+ >en
+ Password: 
+ #clear start
+ Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
+ [OK]
+ Erase of nvram: complete
+ IR809-DevTest1#reload
+ Proceed with reload? [confirm]
 ```
 
 On the IR829, the using the CLI looks like this:
