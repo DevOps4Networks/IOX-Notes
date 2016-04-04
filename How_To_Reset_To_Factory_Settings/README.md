@@ -17,7 +17,7 @@ On the IR809 using the CLI looks like this:
 ```bash
  >en
  Password: 
- #clear start
+ \#clear start
  Erasing the nvram filesystem will remove all configuration files! Continue? [confirm]
  [OK]
  Erase of nvram: complete
