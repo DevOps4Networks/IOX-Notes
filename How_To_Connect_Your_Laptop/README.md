@@ -11,7 +11,6 @@ small Philips screwdriver to unscrew the panel over the mini-USB port, a suitabl
 A typographical note for below: I use IR8x9 to mean both the IR829 and IR809 devices, and generally just say
 "device" to mean either and/or both. Note that this does NOT include the IR819, which is quite different.
  
-
 The main steps here are:
 
  - Connect the console and Ethernet cables
@@ -25,23 +24,19 @@ The main steps here are:
 To get started here, you need to have the following working for you:
  
  - Console connectivity from your laptop, using the blue mini-USB console cable, so that you can configure the 
-IR8x9.
- - The IR8x9 booting to IOS, which may not happen automatically.
+IR8x9. See 
+[How To Connect to the Console](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_The_Console/README.md).
+ - The IR8x9 booting to IOS, which may not happen automatically. See 
+ [How to Boot to IOS from rommon-2, and Not Have to do That Again](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Boot_From_rommon-2/README.md)
  - Ethernet IP connectivity between the IR8x9 and your laptop, so that you can connect your laptop development 
 tools, browser and so on, to the GOS on the IR8x9, using the yellow Ethernet RJ45 cable (not included in the box 
-my IR809 came in).
- - A connection to the GOS Local Manager web UI, using your laptop.
+my IR809 came in). See 
+[these sample configurations](https://github.com/DevOps4Networks/IOx-Sample_Configurations)
  - Trivial File Transfer Protocol (TFTP), or similar, so that you can install new IOx bundles and/or IOS 
-images and/or GOS images as they are made available, using your laptop.
- 
-The console connectivity aspects are dealt with 
-[here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_The_Console/README.md).
- 
-Booting the device to IOS is dealt with 
-[here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Boot_From_rommon-2/README.md)
- 
-Setting up TFTP to copy new bundles to the IR8x9 is discussed in this post: How to Set up a TFTP Server on OS X, Windows or Linux. Installing new bundles is discussed in this post: How to Install IOx Bundles on the IR829 or IR809
- 
+images and/or GOS images as they are made available, using your laptop. See 
+[How to Set up a TFTP Server on OS X, Windows or Linux](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Setup_TFTP/README.md)
+ - A connection to the GOS Local Manager web UI, using your laptop.
+   
 The rest of this post addresses the Ethernet IP connectivity for IOS and the GOS, and connecting to the Local Manager web interface.
  
 Please leave a comment if this does not work for you, or you can help improve these instructions.
