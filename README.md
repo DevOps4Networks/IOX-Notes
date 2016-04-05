@@ -10,8 +10,8 @@ The main item of interest to get you started will be
 
 The other articles here cover subjects as various as [how to set up a TFTP server](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Setup_TFTP), 
 [how to access the console](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Connect_The_Console),
-[how to reset]()https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Reset_To_Factory_Settings, 
-[install bundles](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Install_IOx_Bundles), and so on.
+[how to reset](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Reset_To_Factory_Settings), 
+[installing bundles](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Install_IOx_Bundles), and so on.
 
 If you have any questions, thoughts, ideas for improvements and so on, then please create an issue and/or fork
 and create a pull request. No promises, but I will do my best to respond.
