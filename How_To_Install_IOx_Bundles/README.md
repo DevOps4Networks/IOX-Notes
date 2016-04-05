@@ -5,7 +5,10 @@ operational lifetime. Indeed, this is likely to happen a few times as you work t
 integrating your applications with IOx.
  
 That means you will need to be able to install new "bundles" onto the IR829 or IR809 as they are made 
-available. The bundle install process itself is perfectly straightforward, and I illustrate that directly 
+available, for example from [here] 
+(https://software.cisco.com/portal/pub/download/portal/select.html?&mdfid=286287094&flowid=75323&softwareid=280805680). 
+
+The bundle install process itself is perfectly straightforward, and I illustrate that directly 
 below. The trick is how to get the bundle onto the device in the first place. At the time of writing, it seems 
 that the USB port is not usable for copying images to IOS, though see 
 [How to use a USB Drive to Upgrade IOx on an IR829/809](https://communities.cisco.com/thread/63704) in case 
