@@ -21,7 +21,7 @@ but TFTP is the most common choice. See
  
 See 
 [How to Install IOx Bundles on the IR829 or IR809](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Install_IOx_Bundles)
-for details of how to use the `copy tftp flash` command to copy the GOS image from a TFTP server into flash.
+for details of how to use the `copy tftp flash` command to copy the GOS image from a TFTP server into flash memory.
 
 ```bash
 IR829-DevTest3>en
@@ -95,3 +95,6 @@ Host registered:
  
 IR829-DevTest3#
 ```
+
+That's it. Good luck, and please open an issue if this does not work for you, or you can help improve these 
+instructions.
