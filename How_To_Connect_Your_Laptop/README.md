@@ -2,25 +2,47 @@
 
 ![Laptop and IR829](./images/main.png)
 
-The diagram above illustrates a basic setup to get your laptop connected to a IR829/809 and in a position to start with developing applications, deploying them into the IOx Yocto Linux Guest Operating System (GOS) on the IR829/809, and seeing what happens. This guide requires the contents of what is shipped in the IR829/809 box, a small Philips screwdriver to unscrew the panel over the mini-USB port, and a suitable [power supply](https://github.com/DevOps4Networks/IOX-Notes/blob/master/8x9_PSU/README.md).
+The diagram above illustrates a basic setup to get your laptop connected to a IR829/809 and in a position to 
+start with developing applications, deploying them into the IOx Yocto Linux Guest Operating System (GOS) on the 
+IR829/809, and seeing what happens. This guide requires the contents of what is shipped in the IR829/809 box, a 
+small Philips screwdriver to unscrew the panel over the mini-USB port, a suitable 
+[power supply](https://github.com/DevOps4Networks/IOX-Notes/blob/master/8x9_PSU/README.md).
+
+A typographical note for below: I use IR8x9 to mean both the IR829 and IR809 devices, and generally just say
+"device" to mean either and/or both. Note that this does NOT include the IR819, which is quite different.
  
-A typographical note for below: I use IR8x9 to mean both the IR829 and IR809 for the purposes of this post. Note that this does NOT include the IR819, which is quite different.
+
+The main steps here are:
+
+ - Connect the console and Ethernet cables
+ - Power up the device
+ - Access the console, boot to IOS if required, and copy-and-paste a prepared configuration
  
+ The whole process takes about five minutes, most of which is waiting for the device to go through its boot 
+ sequence.
+ 
+
 To get started here, you need to have the following working for you:
  
-•	Console connectivity from your laptop, using the blue mini-USB console cable, so that you can configure the IR8x9.
-•	The IR8x9 booting to IOS, which may not happen automatically.
-•	Ethernet IP connectivity between the IR8x9 and your laptop, so that you can connect your laptop development tools, browser and so on, to the GOS on the IR8x9, using the yellow Ethernet RJ45 cable (not included in the box my IR809 came in).
-•	A connection to the GOS Local Manager web UI, using your laptop.
-•	Trivial File Transfer Protocol (TFTP), or similar, so that you can install new IOx bundles and/or IOS images and/or GOS images as they are made available, using your laptop.
+ - Console connectivity from your laptop, using the blue mini-USB console cable, so that you can configure the 
+IR8x9.
+ - The IR8x9 booting to IOS, which may not happen automatically.
+ - Ethernet IP connectivity between the IR8x9 and your laptop, so that you can connect your laptop development 
+tools, browser and so on, to the GOS on the IR8x9, using the yellow Ethernet RJ45 cable (not included in the box 
+my IR809 came in).
+ - A connection to the GOS Local Manager web UI, using your laptop.
+ - Trivial File Transfer Protocol (TFTP), or similar, so that you can install new IOx bundles and/or IOS 
+images and/or GOS images as they are made available, using your laptop.
  
-The console connectivity aspects are dealt with [here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_The_Console/README.md).
+The console connectivity aspects are dealt with 
+[here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_The_Console/README.md).
  
-Booting the IR8x9 to IOS is dealt with in this post: How to Boot to IOS from rommon-2, and Not Have to do That Again.
+Booting the device to IOS is dealt with 
+[here](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Boot_From_rommon-2/README.md)
  
 Setting up TFTP to copy new bundles to the IR8x9 is discussed in this post: How to Set up a TFTP Server on OS X, Windows or Linux. Installing new bundles is discussed in this post: How to Install IOx Bundles on the IR829 or IR809
  
-The rest of this post addresses the ethernet IP connectivity for IOS and the GOS, and connecting to the Local Manager web interface.
+The rest of this post addresses the Ethernet IP connectivity for IOS and the GOS, and connecting to the Local Manager web interface.
  
 Please leave a comment if this does not work for you, or you can help improve these instructions.
  
@@ -117,5 +139,6 @@ The web page that should be presented will allow you to log in with the credenti
 username cisco privilege 15 password 0 cisco
  
 Note that the port number of 8443 is non-standard, and that the HTTPS certificate is self-signed.
- 
-That's it. Good luck, and please leave a comment if this does not work for you, or you can help improve these instructions.
+
+That's it. Good luck, and please open an issue if this does not work for you, or you can help improve these 
+instructions.

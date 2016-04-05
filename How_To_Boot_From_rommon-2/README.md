@@ -78,4 +78,7 @@ Do you want to save the configuration of the AP? [yes/no]: yes
 Proceed with reload? [confirm]
 ``` 
 
-Withe the last prompt above, to reload, press return to continue.
+With the last prompt above, to reload, press return to continue.
+
+That's it. Good luck, and please open an issue if this does not work for you, or you can help improve these 
+instructions.

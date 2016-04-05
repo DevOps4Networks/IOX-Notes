@@ -77,4 +77,5 @@ To effect a reset, press the reset button for 10 seconds until this message appe
 ```
 That will reset nvram, which is where any previous non-factory configuration will have been saved. Then the device will reboot. If it reboots to rommon-2, you can manually boot from there to IOS as shown above.
  
- 
+That's it. Good luck, and please open an issue if this does not work for you, or you can help improve these 
+instructions.

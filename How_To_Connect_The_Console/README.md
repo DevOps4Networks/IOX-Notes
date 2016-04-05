@@ -71,3 +71,6 @@ In theory, given these devices, one should be able to:
 screen /dev/cu.usbserial 9600
  
 But that is not working for me yet, at least not on an IR829 straight out of the box.
+
+That's it. Good luck, and please open an issue if this does not work for you, or you can help improve these 
+instructions.
