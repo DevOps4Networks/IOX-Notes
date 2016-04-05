@@ -19,15 +19,9 @@ to use the Trivial File Transfer Protocol (TFTP). It also possible to use FTP, H
 but TFTP is the most common choice. See 
 [How to Set up a TFTP Server on OS X, Windows or Linux](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Setup_TFTP/README.md)
  
-The commands to install a GOS image are illustrated below. See 
+See 
 [How to Install IOx Bundles on the IR829 or IR809](https://github.com/DevOps4Networks/IOX-Notes/tree/master/How_To_Install_IOx_Bundles)
 for details of how to use the `copy tftp flash` command to copy the GOS image from a TFTP server into flash.
-
-Note that these commands are being applied after configuring the device with a version of the configurations discussed 
-in [How to Connect Your Laptop to an IR829 or an IR809](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Connect_Your_Laptop/README.md). 
-If you have changed the host name in the configuration, then your prompt will be different. The address of the 
-TFTP server, and how that works, is explained in 
-[How to Set up a TFTP Server on OS X, Windows or Linux](https://github.com/DevOps4Networks/IOX-Notes/blob/master/How_To_Setup_TFTP/README.md).
 
 ```bash
 IR829-DevTest3>en
